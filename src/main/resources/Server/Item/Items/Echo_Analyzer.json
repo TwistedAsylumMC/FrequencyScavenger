@@ -22,7 +22,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Iron_Ingot",
+        "ItemId": "Ingredient_Bar_Iron",
         "Quantity": 4
       },
       {

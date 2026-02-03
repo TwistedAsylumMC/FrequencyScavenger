@@ -123,8 +123,7 @@ public class EchoAnalyzerTickingSystem extends EntityTickingSystem<EntityStore> 
                 "Ingredient_Life_Essence",
                 "Ingredient_Lightning_Essence",
                 "Ingredient_Void_Essence",
-                "Ingredient_Water_Essence",
-                "Ingredient__Essence"
+                "Ingredient_Water_Essence"
         };
         String reward = rewards[(int) (Math.random() * rewards.length)];
         ItemStack rewardItem = new ItemStack(reward);

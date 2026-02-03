@@ -2,6 +2,9 @@
 
 Frequency Scavenger introduces a specialized gameplay loop centered around high-tech archaeology and signal triangulation. Using the Echo Analyzer, players must navigate the wilderness to detect and decode remnants of a long-lost civilization.
 
+# Requirements
+- [MultipleHUD](https://www.curseforge.com/hytale/mods/multiplehud/download/7530266) - Will not work without
+
 ## The Echo Analyzer
 A sophisticated handheld tool featuring a real-time, responsive Pulse Graph. Watch the acoustic waves stabilize and peak as you zero in on subterranean signatures.
 
