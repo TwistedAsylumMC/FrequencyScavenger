@@ -1,0 +1,40 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 440, Height: 200, Bottom: 28, Left: 28);
+  Background: (TexturePath: "../Common/TooltipDefaultBackground.png", Border: 24);
+  LayoutMode: Left;
+  Padding: 24;
+
+  Group {
+    LayoutMode: Top;
+    FlexWeight: 1;
+
+    Group {
+      Label {
+        Style: (...$C.@TitleStyle);
+        Text: %frequencyscavenger.customUI.analyzer.title;
+      }
+    }
+
+    Group {
+      Padding: (Bottom: 12);
+      FlexWeight: 1;
+
+      Group #Graph {
+      }
+    }
+
+    Group {
+      LayoutMode: Left;
+
+      Label { Style: (RenderBold: true, FontSize: 20, RenderUppercase: true); Text: %frequencyscavenger.customUI.analyzer.status; }
+
+      Group { Anchor: (Width: 8); }
+
+      Label #StatusLabel { Anchor: (Top: 2); Style: (RenderBold: true, FontSize: 18); }
+
+      Label #PercentLabel { Anchor: (Top: 2); Style: (RenderBold: true, FontSize: 18); }
+    }
+  }
+}

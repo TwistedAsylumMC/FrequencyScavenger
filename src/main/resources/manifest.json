@@ -1,0 +1,14 @@
+{
+    "Group": "5sf",
+    "Name": "FrequencyScavenger",
+    "Version": "0.0.2",
+    "Description": "",
+    "Authors": [
+        {
+            "Name": "Seb"
+        }
+    ],
+    "ServerVersion": "*",
+    "Main": "dev.sebf.frequencyscavenger.FrequencyScavenger",
+    "IncludesAssetPack": true
+}

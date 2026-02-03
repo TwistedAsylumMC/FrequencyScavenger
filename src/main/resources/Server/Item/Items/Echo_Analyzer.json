@@ -1,0 +1,52 @@
+{
+  "Model": "Items/Echo_Analyzer.blockymodel",
+  "Texture": "Items/Echo_Analyzer.png",
+  "Icon": "Icons/ItemsGenerated/Echo_Analyzer.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "MaxStack": 1,
+  "Quality": "Technical",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Iron_Ingot",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ],
+    "TimeSeconds": 2
+  },
+  "PlayerAnimationsId": "Item",
+  "Utility": {
+    "Usable": true
+  },
+  "TranslationProperties": {
+    "Name": "frequencyscavenger.items.Echo_Analyzer.name",
+    "Description": "frequencyscavenger.items.Echo_Analyzer.description"
+  }
+}

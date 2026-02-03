@@ -1,0 +1,10 @@
+items.Echo_Analyzer.name=Echo Analyzer
+items.Echo_Analyzer.description=The air is full of whispers from a civilization that no longer exists. This device tunes into the "Echoes" left behind in their wake. When the graph peaks, you are standing on a fragment of history.
+
+customUI.analyzer.title=Echo Analyzer
+customUI.analyzer.status=Status:
+customUI.analyzer.no_signal=No Signal
+customUI.analyzer.weak_signal=Weak Signal
+customUI.analyzer.strong_signal=Strong Signal
+
+title.echo_recovered.subtitle=You found the source of an echo and discovered a..
